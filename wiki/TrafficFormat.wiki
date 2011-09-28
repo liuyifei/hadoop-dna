@@ -5,16 +5,16 @@
 
 Traffic analysis format can be categorized on OSI 7 Layer.
 
-== Format ==
+== Key Format ==
 
 === Layer 4 Format === 
 
 Input Format  : 
 {{{
-<Src IP> : <Src Port> : <Protocol> : <Dst Port> : <Dst IP> : <Number of Bytes Sent> : <Number of Bytes Receive>
+<Src IP> : <Src Port> : <Protocol> : <Dst Port> : <Dst IP>
 }}}
 
-ex) 192.168.0.1:1234:7:80:10.1.2.3:1040654:2333
+ex) 192.168.0.1:1234:7:80:10.1.2.3
 
 {{{
 public class Layer4Writable implements Writable {
@@ -32,10 +32,10 @@ public class Layer4Writable implements Writable {
 
 Input Format : 
 {{{
-<Src IP> - <Dst IP> - <Number of Bytes Sent> - <Number of Bytes Receive>
+<Src IP> - <Dst IP>
 }}}
 
-ex)192.168.0.1:10.1.2.3:1040654:2333 
+ex)192.168.0.1:10.1.2.3
 
 
 = Details =
