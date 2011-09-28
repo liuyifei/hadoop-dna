@@ -1,22 +1,27 @@
 #labels netflow,inputformat
-# Traffic Analysis Format
+= Traffic Analysis Format =
 
-= Introduction =
+== Introduction ==
 
 Traffic analysis format can be categorized on OSI 7 Layer.
 
-= Format =
+== Format ==
 
-== Layer 4 Format == 
+=== Layer 4 Format === 
 
 Input Format  : 
+{{{
 <Src IP> : <Src Port> : <Protocol> : <Dst Port> : <Dst IP> : <Number of Bytes Sent> : <Number of Bytes Receive>
+}}}
 
 ex) 192.168.0.1:1234:7:80:10.1.2.3:1040654:2333
 
-== Layer 3 Format ==
+=== Layer 3 Format ===
 
-Input Format : <Src IP> - <Dst IP> - <Number of Bytes Sent> - <Number of Bytes Receive>
+Input Format : 
+{{{
+<Src IP> - <Dst IP> - <Number of Bytes Sent> - <Number of Bytes Receive>
+}}}
 
 ex)192.168.0.1:10.1.2.3:1040654:2333 
 
