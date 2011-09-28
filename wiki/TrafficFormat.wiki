@@ -17,7 +17,7 @@ Input Format  :
 ex) 192.168.0.1:1234:7:80:10.1.2.3
 
 {{{
-public class Layer4Writable implements Writable {
+public class Layer4Writable implements WritableComparable {
    //field
    private Text srcIP;
    private Int srcPort;
@@ -37,6 +37,14 @@ Input Format :
 
 ex)192.168.0.1:10.1.2.3
 
+{{{
+public class Layer4Writable implements WritableComparable {
+   //field
+   private Text srcIP;
+   private Text dstIP;
+}
+
+}}}
 
 = Details =
 
