@@ -16,6 +16,18 @@ Input Format  :
 
 ex) 192.168.0.1:1234:7:80:10.1.2.3:1040654:2333
 
+{{{
+public class Layer4Writable implements Writable {
+   //field
+   private Text srcIP;
+   private Int srcPort;
+   private Int proto;
+   private Int dstPort;
+   private Text dstIP;
+}
+
+}}}
+
 === Layer 3 Format ===
 
 Input Format : 
