@@ -2,13 +2,14 @@
 
 = Installation =
 {{{
-wget 
-tar -zxvf nProbe.tar.gz
+wget http://hadoop-dna.googlecode.com/files/nProbe-4.9.4.tar.gz
+tar -zxvf nProbe-4.9.4.tar.gz
 cd nProbe
 ./autogen.sh
 make
 make install
 }}}
+To compile nProbe, libtool, autoconf, automake, libpcap-dev are needed.
 
 = Update start script =
 
