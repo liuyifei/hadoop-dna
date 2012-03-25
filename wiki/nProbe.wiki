@@ -31,12 +31,12 @@ root@cnode01-m:/etc/init.d# update-rc.d  nprobe defaults
 {{{
 14.63.215.226 80 6 49.1.21.74 4800 1332676559.441 203 25 77082
 }}}
-  # Src IP
-  # Src Port
-  # Protocol : 6 TCP, 17 UDP ...
-  # Dst IP
-  # Dst Port
-  # Start Time (epoch second)
-  # Duration (mili second)
-  # Number of packets
-  # Number of bytes
+  # Src IP    : (ex. 14.63.215.226)
+  # Src Port  : (ex. 80)
+  # Protocol  : (ex. 6) 6 TCP, 17 UDP ...
+  # Dst IP    : (ex. 49.1.21.74)
+  # Dst Port  : (ex. 4800)
+  # Start Time : (ex. 1332676559.441 epoch second)
+  # Duration   : (ex. 203 mili second)
+  # Number of packets : (ex. 25 packets)
+  # Number of bytes : (ex. 77082 bytes)
