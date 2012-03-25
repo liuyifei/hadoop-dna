@@ -27,9 +27,16 @@ root@cnode01-m:/etc/init.d# update-rc.d  nprobe defaults
    /etc/rc5.d/S20nprobe -> ../init.d/nprobe
 }}}
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Output Format =
+{{{
+14.63.215.226 80 6 49.1.21.74 4800 1332676559.441 203 25 77082
+}}}
+  # Src IP
+  # Src Port
+  # Protocol : 6 TCP, 17 UDP ...
+  # Dst IP
+  # Dst Port
+  # Start Time (epoch second)
+  # Duration (mili second)
+  # Number of packets
+  # Number of bytes
