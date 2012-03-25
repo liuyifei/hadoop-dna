@@ -1,0 +1,9 @@
+1. usage
+
+make directory for data save 
+# mkdir -p /data/netflow
+
+in dna-collector directory
+# python dna-collector.py -d -f conf/dna-collector.ini
+-d : daemon
+-f : config file
