@@ -66,11 +66,11 @@ class NetflowAnalyzer:
             curr = time.time()
             if (curr - priv) > self.interval: #every 60 seconds 
                 # send data to queue
-                who = join(str(curr), pid)
+                who = "%s_%s" % (str(curr), str(pid))
                 fname = join(self.config.get("backup","path"), who)
                 logger.debug("==================================================")
                 logger.debug("Total Count\tTotal Flow\t File, Current Count")
-                logger.debug("%d\t%d\t%d\t%d" % (totalCount,totalFlow,fname,len(send)))
+                logger.debug("%s\t%s\t%s\t%s" % (totalCount,totalFlow,fname,len(send)))
                 fp = open(fname,'w')
                 # clear send information
                 fp.write(send)
