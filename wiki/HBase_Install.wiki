@@ -6,7 +6,7 @@ Hbase is colume based database using hadoop.
 === Pre-condition ===
  * hadoop is installed in /usr/local/hadoop/
  * jdk is installed in /usr/local/jdk/
- * jookeeper must be installed
+ * jookeeper is managed by hbase (you don't need to install zookeeper)
 
 = Installation =
 Download Hbase
