@@ -1,0 +1,13 @@
+# Installation of HBase
+
+= Introduction =
+Hbase is colume based database using hadoop.
+
+
+= Installation =
+Download Hbase
+{{{
+wget http://mirror.apache-kr.org/hbase/stable/hbase-0.92.1.tar.gz
+tar zxvf hbase-0.92.1.tar.gz
+mv hbase-0.92.1 /usr/local/hbase
+}}}
