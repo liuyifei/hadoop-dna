@@ -71,6 +71,8 @@ cnode14
 ln /usr/local/hadoop/conf/hdfs-site.xml /usr/local/hbase/conf/
 }}}
 
+* Copy all these configuration in every Hmaster and HRegionServers
+
 = start =
  * start master in a HMaster node
 {{{
