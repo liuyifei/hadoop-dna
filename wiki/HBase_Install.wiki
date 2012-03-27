@@ -11,3 +11,33 @@ wget http://mirror.apache-kr.org/hbase/stable/hbase-0.92.1.tar.gz
 tar zxvf hbase-0.92.1.tar.gz
 mv hbase-0.92.1 /usr/local/hbase
 }}}
+
+== hbase-env.sh ==
+{{{
+export JAVA_HOME=/usr/local/jdk
+export HBASE_CLASSPATH=/usr/local/hbase/conf
+}}}
+
+== hbase-site.xml ==
+{{{
+
+<configuration>
+    <property>
+         <name>hbase.rootdir</name>
+         <value>hdfs://cnode16-m:9000/hbase</value>
+    </property>
+    <property>
+         <name>hbase.master</name>
+         <value>cnode16-m:60000</value>
+    </property>
+    <property>
+         <name>hbase.cluster.distributed</name>
+         <value>ture</value>
+    </property>
+
+    <property>
+         <name>hbase.zookeeper.quorum</name>
+         <name>cnode16-m</name>
+  </description>
+</configuration>
+}}}
