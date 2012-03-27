@@ -42,3 +42,22 @@ export HBASE_CLASSPATH=/usr/local/hbase/conf
   </description>
 </configuration>
 }}}
+
+== regionservers ==
+ * add region servers in regionservers file
+{{{
+cnode01
+cnode02
+cnode03
+cnode04
+cnode05
+cnode06
+cnode07
+cnode08
+cnode09
+cnode10
+cnode11
+cnode12
+cnode13
+cnode14
+}}}
