@@ -39,7 +39,7 @@ export HBASE_CLASSPATH=/usr/local/hbase/conf
     <property>
          <name>hbase.zookeeper.quorum</name>
          <name>cnode16-m</name>
-  </description>
+  </property>
 </configuration>
 }}}
 
