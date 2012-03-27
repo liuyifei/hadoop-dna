@@ -3,6 +3,9 @@
 = Introduction =
 Hbase is colume based database using hadoop.
 
+=== Pre-condition ===
+ * hadoop is installed in /usr/local/hadoop/
+ * jdk is installed in /usr/local/jdk
 
 = Installation =
 Download Hbase
@@ -12,13 +15,13 @@ tar zxvf hbase-0.92.1.tar.gz
 mv hbase-0.92.1 /usr/local/hbase
 }}}
 
-== hbase-env.sh ==
+=== hbase-env.sh ===
 {{{
 export JAVA_HOME=/usr/local/jdk
 export HBASE_CLASSPATH=/usr/local/hbase/conf
 }}}
 
-== hbase-site.xml ==
+=== hbase-site.xml ===
  * cnode16-m must be changed in your master node's hostname
 {{{
 
@@ -43,7 +46,7 @@ export HBASE_CLASSPATH=/usr/local/hbase/conf
 </configuration>
 }}}
 
-== regionservers ==
+=== regionservers ===
  * add region servers in regionservers file
 {{{
 cnode01
@@ -60,6 +63,11 @@ cnode11
 cnode12
 cnode13
 cnode14
+}}}
+
+=== link hdfs-site.xml ===
+{{{
+ln /usr/local/hadoop/conf/hdfs-site.xml /usr/local/hbase/conf/
 }}}
 
 = start =
