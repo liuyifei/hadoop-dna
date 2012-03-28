@@ -3,6 +3,8 @@ import socket
 import struct
 import time
 import re
+import stat
+import os
 from os.path import join
 
 from utils.Debug import *
@@ -75,6 +77,9 @@ class NetflowAnalyzer:
                 # clear send information
                 fp.write(send)
                 fp.close()
+                # change mode to read only
+                os.chmod(fname,stat.S_IRUSR|stat.S_IRGRP|stat.S_IROTH)
+
                 send = ""
                 priv = curr
 
