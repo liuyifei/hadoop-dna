@@ -1,0 +1,8 @@
+Netflow analyzer
+
+Introduction
+Netflow analyzer makes network flow.
+Network flow:
+src IP, src Port, Protocol dst IP, dst Port, start time, duration, number of bytes(src->dst), number of bytes(dst->src), number of packets(src->dst), number of packets(dst->src)
+
+Then anlyze distributed manner based on hadoop & mahout
