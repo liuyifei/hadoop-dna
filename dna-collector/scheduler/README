@@ -1,0 +1,12 @@
+worker.py :
+ - backup local data into hdfs
+ - install in every datanode
+
+sink.py:
+ - codinater of worker
+ - install in name node
+
+client.py:
+ - commander for worker
+ - install in name node
+ - start in every XX minute
