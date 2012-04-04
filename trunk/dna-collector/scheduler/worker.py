@@ -1,12 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Task worker
-# Connects PULL socket to tcp://localhost:5557
-# Collects workloads from ventilator via that socket
-# Connects PUSH socket to tcp://localhost:5558
-# Sends results to sink via that socket
 #
-# Author: Lev Givon <lev(at)columbia(dot)edu>
+# Author: Choonho Son <choonho.son(at)kt(dot)com>
 
 import sys
 import time
@@ -21,7 +17,7 @@ def merge_files(src, dst):
         created = file.split("_")
         full_path = os.path.join(src, file)
         t = time.localtime(float(created[0]))
-        fname = "%4d-%.2d-%2d-%.2d.%s" % (t.tm_year, t.tm_mon, t.tm_mday, t.tm_hour, hostname)
+        fname = "%4d-%.2d-%.2d-%.2d.%s" % (t.tm_year, t.tm_mon, t.tm_mday, t.tm_hour, hostname)
 
         src_fp = os.stat(full_path)
         if src_fp.st_mode != 33060: #r__r__r
