@@ -1,0 +1,16 @@
+#Traffic Table
+
+= Introduction =
+
+Traffic table stores data which is related with netflow and snort alert.
+
+
+= Tables =
+
+|| Row Key                    || Column Family(bytes)    || Columm Family (packets) ||
+|| Timestamp_<Monitoring IP>  || bytes:<dst IP> => nn,mm || packets:<dst IP> => nn,mm ||
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
