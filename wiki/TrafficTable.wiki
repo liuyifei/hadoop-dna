@@ -8,7 +8,7 @@ Traffic table stores data which is related with netflow and snort alert.
 = Tables =
 
 || Row Key                    || Column Family (bytes)    || Columm Family (packets) || Column Family (alert) ||
-|| Timestamp_<Monitoring IP>  || bytes:<dst IP> => nn,mm || packets:<dst IP> => nn,mm || alert:<dst IP> => signature # or contents ||
+|| Timestamp_<Monitoring IP>  || B:<dst IP> => nn,mm || P:<dst IP> => nn,mm || A:<dst IP> => signature # or contents ||
 || 1334018704_10.63.239.236 || B:223.4.119.42 => 181448,107282 || P:223.4.119.42 => 1110,1066 || ||
 
 for example, we have fllowing netflow data:
