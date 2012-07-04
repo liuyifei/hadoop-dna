@@ -1,0 +1,14 @@
+#System automation
+
+= dna-collector =
+
+Starting service at booting time
+
+{{{
+update-rc.d dna-collector defaults 98
+}}}
+
+== dna-worker ==
+{{{
+update-rc.d dna-collector defaults 98
+}}}
