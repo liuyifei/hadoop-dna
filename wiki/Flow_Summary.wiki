@@ -19,8 +19,8 @@
   
 ==Layer3Flow2==
 
-
- This summarizes network flow based on source IP and destination IP
+This summarizes network flow based on monitoring IP
+It is summation of multiple destination IPs.
 
  Usage)
 {{{
