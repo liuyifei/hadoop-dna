@@ -1,0 +1,17 @@
+# Flow Summary
+
+= Introduction =
+
+== Layer3Flow ==
+ This summarizes network flow based on source IP and destination IP
+ Usage)
+{{{
+ hadoop jar hadoop-dna.jar org.hadoop.dna.analyzer.Layer3Sum 2012-07-14-22-15
+}}}
+ Result looks like
+ || Row key || src IP dst IP , ex) 14.6.1.34_8.8.8.8 ||
+ || Data    || Bytes Sent, Bytes Receive, Packet Sent, Packet Receive ||
+
+ 14.6.1.34.23_8.8.8.8   10445 3423 53 24
+  
+== Layer3Flow2 ==
