@@ -56,5 +56,5 @@ FlowRank is the PageRank algorithm for Netflow Flow
 
  Usage)
 {{{
- hama jar hadoop-dna.jar hama-examples-0.5.0.jar pagerank <Input Path> <Output Path>
+ hama jar hama-examples-0.5.0.jar pagerank <Input Path> <Output Path>
 }}}
