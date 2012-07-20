@@ -38,8 +38,8 @@ It is summation of multiple destination IPs.
 
 Layer3Graph makes Digraph of flow, which is used for FlowRank algorithm.
 
-Input Path:   /data/temp/
-Output Path: /data/graph_out/
+|| Input Path ||   /data/temp/  ||
+|| Output Path  || /data/graph_out/   ||
 
  Usage)
 {{{
