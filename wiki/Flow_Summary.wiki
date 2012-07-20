@@ -33,3 +33,15 @@ It is summation of multiple destination IPs.
 || Data    || Bytes Sent, Bytes Receive, Packet Sent, Packet Receive ||
 
 14.6.1.34   10445 3423 53 24
+
+== Layer3Graph ==
+
+Layer3Graph makes Digraph of flow, which is used for FlowRank algorithm.
+
+Input Path:   /data/temp/<Date>
+Output Path: /data/graph_out/<Date>
+
+ Usage)
+{{{
+ hadoop jar hadoop-dna.jar org.hadoop.dna.analyzer.Layer3Graph 2012-07-14-22-15
+}}}
