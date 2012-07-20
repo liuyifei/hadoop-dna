@@ -45,3 +45,16 @@ Layer3Graph makes Digraph of flow, which is used for FlowRank algorithm.
 {{{
  hadoop jar hadoop-dna.jar org.hadoop.dna.analyzer.Layer3Graph 2012-07-14-22-15
 }}}
+
+== FlowRank ==
+
+FlowRank is the PageRank algorithm for Netflow Flow
+
+|| Input Path || Output of Layer3Graph ||
+|| Output Path || User defined folder ||
+
+
+ Usage)
+{{{
+ hama jar hadoop-dna.jar hama-examples-0.5.0.jar pagerank <Input Path> <Output Path>
+}}}
