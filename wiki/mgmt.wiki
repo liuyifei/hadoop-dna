@@ -13,4 +13,7 @@ dhcp is dhcp daemon for allow dhcp IP distribution for Data Node and Name Node
 file
 {{{
 apt-get install dhcp3-server
+
+# edit /etc/dhcp3/dhcpd.conf
+
 }}}
