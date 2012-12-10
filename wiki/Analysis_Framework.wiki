@@ -6,9 +6,7 @@
 
 [http://hadoop-dna.googlecode.com/files/20G_downlink.png]
 
-= Details =
+= Analysis #1 =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * Target address
+  * Source addresses
