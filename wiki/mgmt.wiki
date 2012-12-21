@@ -1,3 +1,5 @@
+<wiki:toc max_depth="2" />
+
 mgmt is management system for install hardware/OS
 
 = Introduction =
