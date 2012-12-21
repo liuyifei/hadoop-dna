@@ -67,3 +67,11 @@ tftp server works as repository for net installation media
 yum install tftp-server
 
 }}}
+
+= apache =
+
+=== installation ===
+
+{{{
+yum install httpd
+}}}
