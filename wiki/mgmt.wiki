@@ -11,7 +11,7 @@ dhcp
 dns
 
 
-== dhcp ==
+= dhcp =
 
 dhcp is dhcp daemon for allow dhcp IP distribution for Data Node and Name Node
 
