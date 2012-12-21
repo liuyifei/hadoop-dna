@@ -68,6 +68,18 @@ yum install tftp-server
 
 }}}
 
+default tftp directory : /var/lib/tftpboot/
+
+=== net boot media ===
+
+{{{
+default auto
+label auto
+        menu label ^Automated install
+        kernel ubuntu-installer/amd64/linux
+        append auto=true priority=critical vga=normal initrd=ubuntu-installer/amd64/initrd.gz url=http://10.7.1.22/cnode.cfg netcfg/choose_interface=eth0 -- quiet
+}}}
+
 = apache =
 
 === installation ===
