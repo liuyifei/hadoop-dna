@@ -56,3 +56,14 @@ group {
         filename "pxelinux.0";
      }
 }}}
+
+= tftp-server =
+
+tftp server works as repository for net installation media
+
+=== installation ===
+
+{{{
+yum install tftp-server
+
+}}}
