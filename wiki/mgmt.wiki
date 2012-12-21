@@ -2,6 +2,8 @@
 
 mgmt is management system for install hardware/OS
 
+Base OS : CentOS 6.x (64bit)
+
 = Introduction =
 
 boot
