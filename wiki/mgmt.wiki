@@ -7,12 +7,22 @@ dhcp
 dns
 
 
-= dhcp =
+== dhcp ==
 
 dhcp is dhcp daemon for allow dhcp IP distribution for Data Node and Name Node
-file
+
+=== installation ===
+
 {{{
 yum install dhcp
-# edit /etc/dhcp3/dhcpd.conf
-
 }}}
+
+=== edit configuration ==
+
+edit /etc/dhcp/dhcpd.conf
+
+{{{
+include "/etc/dhcp/dhcpd.pod";
+}}}
+
+make dhcp information (/etc/dhcp/dhcpd.pod)
