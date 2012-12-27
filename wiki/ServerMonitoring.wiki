@@ -4,6 +4,11 @@
 SNMP is simple network monitoring protocol.
 Zenoss is open source monitoring tool.
 
+{{{
+# wget --no-check-certificate https://raw.github.com/zenoss/core-autodeploy/master/core-autodeploy-4.2.sh
+# chmod +x core-autodeploy-4.2.sh
+# ./core-autodeploy-4.2.sh
+}}}
 
 = Installation =
 SNMP Installation in Ubuntu.
