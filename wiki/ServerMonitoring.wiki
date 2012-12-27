@@ -15,7 +15,7 @@ SNMP Installation in Ubuntu.
 SNMP must be installed in every monitored devices.
 
 {{{
-apt-get install snmp
+apt-get install snmpd
 }}}
 
 = Configure =
