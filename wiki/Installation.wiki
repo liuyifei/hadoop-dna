@@ -3,8 +3,9 @@
 {{{
 wget https://hadoop-dna.googlecode.com/files/nProbe-4.9.4.tar.gz
 tar zxvf nProbe-4.9.4.tar.gz
-cd nProbe-4.9.4
-./configure
+cd nProbe
+apt-get install libpcap-dev
+./autogen.sh
 make
 make install
 }}}
