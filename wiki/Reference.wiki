@@ -3,11 +3,5 @@
 = Similar project =
 
 
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= White Paper =
+http://www.intel.co.kr/content/dam/www/public/us/en/documents/case-studies/big-data-xeon-e5-trustway-case-study.pdf
