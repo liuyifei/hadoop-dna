@@ -11,5 +11,5 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 = References =
-* Netflow DPDK project : https://code.google.com/p/netflow-dpdk/
-* Intel DPDK Overview : http://www.intel.co.kr/content/dam/www/public/us/en/documents/presentation/dpdk-packet-processing-ia-overview-presentation.pdf
+  * Netflow DPDK project : https://code.google.com/p/netflow-dpdk/
+  * Intel DPDK Overview : http://www.intel.co.kr/content/dam/www/public/us/en/documents/presentation/dpdk-packet-processing-ia-overview-presentation.pdf
