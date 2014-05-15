@@ -6,12 +6,32 @@
 Add your content here.
 
 
-= Details =
+= Installation =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+1. Download Pktgen-DPDK from git
+{{{
+git clone git://github.com/Pktgen/Pktgen-DPDK.git
+}}}
+
+2. Build dpdk of Pktgen-DPDK
+{{{
+cd Pktgen-DPDK/dpdk
+export RTE_SDK=${installDir}/Pktgen-dpdk/dpdk
+export RTE_TARGET=x86-64-wr-linuxapp-gcc
+make install T=x86_64-wr-linuxapp-gcc
+}}}
+
+3. Build Pktgen example
+{{{
+cd Pktgen-DPDK/dpdk/wr-examples/pktgen
+export RTE_SDK=${installDir}Pktgen-dpdk/dpdk
+make
+}}}
+
+4. running pktgen
+{{{
+sudo ./app/build/pktgen -c 0xe0 -n 4 -- p 0xf0 -m "6.0.7.1"
+}}}
 
 = References =
  * https://github.com/Pktgen/Pktgen-DPDK
