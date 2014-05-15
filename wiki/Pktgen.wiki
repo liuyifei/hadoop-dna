@@ -17,7 +17,7 @@ git clone git://github.com/Pktgen/Pktgen-DPDK.git
 {{{
 cd Pktgen-DPDK/dpdk
 export RTE_SDK=${installDir}/Pktgen-dpdk/dpdk
-export RTE_TARGET=x86-64-wr-linuxapp-gcc
+export RTE_TARGET=x86_64-wr-linuxapp-gcc
 make install T=x86_64-wr-linuxapp-gcc
 }}}
 
